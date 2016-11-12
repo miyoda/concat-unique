@@ -1,17 +1,17 @@
 {
-  "name": "express-microservice-auth",
-  "version": "1.0.2",
-  "description": "express microservice for local and social auth with passport and mongoose",
+  "name": "npm-template",
+  "version": "1.0.0",
+  "description": "Template for npm modules",
   "main": "index.js",
   "scripts": {
-    "start": "node example/app.js",
-    "debug": "node-debug example/app.js",
-    "dev": "nodemon example/app.js",
+    "start": "node npm-template.js",
+    "debug": "node-debug npm-template.js",
+    "dev": "nodemon npm-template.js",
     "test": "echo \"Warn: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyoda/express-microservice-auth.git"
+    "url": "git+https://github.com/miyoda/npm-template.git"
   },
   "keywords": [
     "express",
@@ -27,32 +27,11 @@
   "author": "=",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miyoda/express-microservice-auth/issues"
+    "url": "https://github.com/miyoda/npm-template/issues"
   },
-  "homepage": "https://github.com/miyoda/express-microservice-auth#readme",
+  "homepage": "https://github.com/miyoda/npm-template#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "extend": "^3.0.0",
-    "jsonwebtoken": "^7.1.9",
-    "lodash": "^4.16.6",
-    "mongoose": "^4.6.6",
-    "passport": "^0.3.2",
-    "passport-facebook": "^2.1.1",
-    "passport-facebook-token": "^3.3.0",
-    "passport-github": "^1.1.0",
-    "passport-google-authcode": "^0.1.4",
-    "passport-google-oauth20": "^1.0.0",
-    "passport-google-token": "^0.1.2",
-    "passport-instagram": "^1.0.0",
-    "passport-jwt": "^2.2.0",
-    "passport-local": "^1.0.0",
-    "passport-twitter": "^1.0.4",
-    "resourcejs": "^1.4.1",
-    "swagger-jsdoc": "^1.8.1",
-    "swagger-tools": "^0.10.1",
-    "unirest": "^0.5.1",
-    "yyyy-mm-dd": "^1.0.1"
+    
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
