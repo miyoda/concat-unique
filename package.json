@@ -1,17 +1,17 @@
 {
-  "name": "npm-template",
+  "name": "concat-unique",
   "version": "1.0.0",
-  "description": "Template for npm modules",
+  "description": "Concat arrays without repeated elements",
   "main": "index.js",
   "scripts": {
-    "start": "node npm-template.js",
-    "debug": "node-debug npm-template.js",
-    "dev": "nodemon npm-template.js",
+    "start": "node concat-unique.js",
+    "debug": "node-debug concat-unique.js",
+    "dev": "nodemon concat-unique.js",
     "test": "echo \"Warn: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyoda/npm-template.git"
+    "url": "git+https://github.com/miyoda/concat-unique.git"
   },
   "keywords": [
     "express",
@@ -27,11 +27,11 @@
   "author": "=",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miyoda/npm-template/issues"
+    "url": "https://github.com/miyoda/concat-unique/issues"
   },
-  "homepage": "https://github.com/miyoda/npm-template#readme",
+  "homepage": "https://github.com/miyoda/concat-unique#readme",
   "dependencies": {
-    
+
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
