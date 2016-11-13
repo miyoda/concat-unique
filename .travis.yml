@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '4.3'
+deploy:
+  provider: npm
+  email: miyoda@gmail.com
+  api_key:
+    secure: k4Jh2lsosoYmDzluHlkU7Y7LpZtG7d96LX1+sGv7iX574Ia+iPVwjNmIdqQ+mm5NnJHc9vSEV9gNDxS6niCmto4CPs+MTEy0k33D3WmE047o3xhpr4XwQ2rjCkTN/hDP6345kwey80l+ZoEqsmvLolnWjjo9wgNDujMuZfAguxNPpF1CgwPams80PxCMIL7TED5/LP0ohrmEZAJ9EcMrfG+Rm0U5r1C1BjnP4RK134XydkXTVbZ2TUVYTjy51BT8rN75t5DNcP82YulkQIK44hKmPy/XgCZ/NU9IW+7KT4Z1yuYomnRZbOB7n+YiLvpJ1mBRIcdav7UYgRRoGRUzJHHDNSZswTnAMFcw9VehOA+PgTQKVs3/ueOgs4Zyrl6zUCd/EyUls2dwoUNaEdCIGjU8vyhlT81PXaFxNNCVFznPGMx3IGbFtJUMozssC3QVJET90W6xMSUhHyoAdlk5Eu1EHpyuyG5jn6y4CbThyTQPdQ8kucNK7CCiiUxotozXJiYa3VyfBqEwfdYtMq0fz/+DaFuDxlUwO8iZOJ9dGPgWRYR65PyzO+CulbujKrGqR3qMaM16YsU7GOr1lArF379wAXrARpBCSBuR0f1QaPg5sQB81bKNf1gy8ZLizh7M4+J/48h2dwYfhBbCDBgYkdSL0KscIGEtFs2KqJU1Oy0=
+  on:
+    tags: true
+    repo: miyoda/concat-unique
+notifications:
+  email: false
+  slack:
+    on_success: always
+    on_failure: always

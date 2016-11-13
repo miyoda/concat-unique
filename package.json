@@ -1,0 +1,39 @@
+{
+  "name": "concat-unique",
+  "version": "1.0.0",
+  "description": "Concat arrays without repeated elements",
+  "main": "concat-unique.js",
+  "scripts": {
+    "start": "node concat-unique.js",
+    "debug": "node-debug concat-unique.js",
+    "dev": "nodemon concat-unique.js",
+    "test": "echo \"Warn: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyoda/concat-unique.git"
+  },
+  "keywords": [
+    "express",
+    "microservice",
+    "mongo",
+    "mongoose",
+    "auth",
+    "login",
+    "social",
+    "local",
+    "passport"
+  ],
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyoda/concat-unique/issues"
+  },
+  "homepage": "https://github.com/miyoda/concat-unique#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
